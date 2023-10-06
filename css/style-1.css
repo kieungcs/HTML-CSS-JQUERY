@@ -1,0 +1,18 @@
+/* CSS Document */
+.bg
+{
+	height: 100px;
+	background-color: indianred;
+	margin-bottom: 16px;
+}
+.bg2
+{
+	height: 100px;
+	background-color: darkolivegreen;
+	margin-bottom: 16px;
+}
+.bg3
+{
+	background-color: bisque;
+	height: auto;
+}

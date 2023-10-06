@@ -1,0 +1,51 @@
+.nav
+{
+	height: 50px;
+	background-color: yellowgreen
+}
+.nav ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+.nav ul li a
+{
+	color: #222;
+	line-height: 50px;
+	padding: 0 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: arial;
+	display: block;
+	font-weight: bold;
+}
+.nav ul li a:hover
+{
+	background-color: #2C560F;
+	color: #fff;
+}
+.sidebar ul li a
+{
+	line-height: 40px;
+	text-transform: capitalize;
+	display: block;
+	background-color: #113702;
+	color: #fff;
+	padding-left: 16px;
+	font-weight: bold;
+}
+.sidebar ul li a:hover
+{
+	background-color: greenyellow;
+	color: #111;
+}
+.sidebar ul li a i
+{
+	padding-right: 16px
+}
+.sidebar ul li a img
+{
+	padding: 10px 12px 0px 0px
+}

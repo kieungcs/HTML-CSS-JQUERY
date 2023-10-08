@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+.square
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	background-color: red;
+	animation-name: rainbow;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite
+}
+@keyframes rainbow
+{
+	0%
+	{
+		transform: translate(0,0);
+	}
+	14%
+	{
+		transform: translate(200px, 500px);
+		background-color: coral;
+	}
+	28%
+	{
+		transform: translate(400px, 0);
+		background-color: yellow;
+	}
+	43%
+	{
+		transform: translate(600px, 500px);
+		background-color: green;
+	}
+	57%
+	{
+		transform: translate(800px, 0);
+		background-color: lightskyblue;
+	}
+	71%
+	{
+		transform: translate(1000px, 500px);
+		background-color: indigo;
+	}
+	85%
+	{
+		transform: translate(1200px, 0);
+		background-color: violet;
+	}
+	100%
+	{
+		transform: translate(1400px, 500px);
+		background-color: indianred;
+	}
+}

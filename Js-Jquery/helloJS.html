@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+	<input type="text" placeholder="Họ tên" id="username">
+	<input type="password" placeholder="Mật khẩu" id="password">
+	<button onClick="thongbao()">Đăng nhập</button>
+	<script>
+		function thongbao()
+		{
+			var hoten, matkhau;
+			hoten = document.getElementById('username').value;
+			matkhau = document.getElementById('password').value;
+			if(hoten == "" || matkhau == "")
+				alert("Vui lòng nhập Tên đăng nhập hoặc Mật khẩu");
+			else
+				alert("Xin chào " + hoten);
+		}
+	</script>
+</body>
+</html>

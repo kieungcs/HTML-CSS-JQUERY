@@ -239,7 +239,8 @@ body, button, input
 .sub-banner
 {
     position: relative;
-    height: 519px;
+    width: 636px;
+    height: 500px;
     overflow: hidden;
 }
 .sub-banner img
@@ -247,7 +248,6 @@ body, button, input
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
 }
 .sub-banner:hover img
 {
@@ -492,6 +492,7 @@ body, button, input
 .footer
 {
     background-color: #222;
+    padding-bottom: 20px;
 }
 .footer-title
 {
@@ -587,8 +588,8 @@ body, button, input
 .btn-sub
 {
     position: absolute;
-    top: 7px;
-    right: 7px;
+    top: 9px;
+    right: 10px;
     font-family: manrope-md;
     font-size: 13px;
     color: #fff;
@@ -610,19 +611,17 @@ body, button, input
 .footer-x
 {
     background-color: #1A1A1A;
-    height: 55px;
 }
 .logo-end
 {
     padding: 0;
-    line-height: 55px;
 }
 .copyright p
 {
     font-size: 13px;
     color: #fff;
     text-align: center;
-    line-height: 55px;
+    line-height: 41px;
 }
 .social
 {
@@ -644,5 +643,4 @@ body, button, input
 .social li
 {
 	padding-right: 10px;
-    line-height: 55px;
 }
